@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.mainheader{
+    display:flex;
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 1350px;
+    height: 300px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    margin-top:60px;
+    background-image: url('mount.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.hobbies{
+    padding-top:50px;
+    margin-top:45px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+}
+
+.aboutinf{
+    font-family: 'Noto Sans', sans-serif;
+    border: 5px;
+    padding:10px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about{
+    font-family: 'Noto Sans', sans-serif;
+    border: 5px;
+    margin-top:40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sectionimg{
+    display:flex;
+    column-gap: 100px;
+    max-width: 1350px;
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 70px 80px;
+    text-align: center;
+}
+
+.detail{
+    background-color: white;
+    border-radius: 5px;
+    padding:20px 30px;
+    flex:1;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.title{
+    margin: 10px 0 20px;
+}
+
+.descrip{
+    margin: 10px 0 20px;
+    text-align: justify;
+    color: #6a6abf;
+}
+
+.detail2{
+    background-color: white;
+    border-radius: 5px;
+    padding:20px 30px;
+    flex:1;
+}
+
+.img2{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.title2{
+    margin: 10px 0 20px;
+}
+
+.descrip2{
+    margin: 10px 0 20px;
+    text-align: justify;
+    color: #6a6abf;
+}
+

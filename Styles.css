@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    min-height: 1000px;
+    min-height: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.mainheader{
+    display:flex;
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 1150px;
+    padding: 5px 10px;
+    margin: 0 auto;
+}
+
+.paulagomez{
+    text-align: center;
+    padding:  10px;
+}
+
+.SDtitle{
+    text-align: center;
+    padding:  10px;
+}
+
+.linksnav{
+    background-color: white;
+    padding:  15px;
+}
+
+.linkslist {
+    display: flex;
+    justify-content: end;
+    column-gap: 40px;   
+    margin-right: 20px;
+}
+
+.liclass {
+    display: flex;
+    justify-content: center;   
+}
+
+.liclass a {
+    text-decoration: none;
+    color:#6a6abf;
+}
+
+.sectionphoto {
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+
+.photo{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.photo1{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.img{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.personalprofile {
+    margin: 10px 0 25px;
+    color:white;
+}
+
+.infprofile {
+    margin: 10px 0 50px;
+    text-align: justify;
+}
+
+.contact {
+    margin: 5px 0 15px;
+}
+
+.linkedin {
+    margin: 10px 0 30px;
+}
+
+.exp-edu-skill-lang {
+    display: flex;
+    flex-direction: column;
+    max-width: 1150px;
+    row-gap: 30px;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+.experience{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    flex:1;
+}
+
+.education{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    flex:1;
+}
+
+.profexperience{
+    margin: 10px 0 30px;
+}
+
+.position{
+    margin: 10px 0 20px;
+    font-size: 20px;
+    color:#6a6abf;
+}
+
+.position2{
+    margin: 10px 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color:#6a6abf;
+}
+
+.company{
+    margin: 10px 0 20px;
+}
+
+.company, .date {
+    display: inline-block;
+}
+
+.date{
+    text-align: right;
+    width: 65%;
+}
+
+.role{
+    margin: 10px 0 20px;
+}
+
+.roledetail{
+    margin: 10px 60px 10px;
+}
+
+.educationtitle{
+    margin: 10px 0 30px;
+}
+
+.sd{
+    margin: 10px 0 20px; 
+}
+
+.english{
+    margin: 10px 0 20px;
+}
+
+.french{
+    margin: 10px 0 20px;
+}
+
+.financ{
+    margin: 10px 0px 20px;
+}
+
+.account{
+    margin: 10px 0px 20px;
+}
+
+.skills{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    flex:1;
+}
+
+.languages{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex:1;
+}
+
+.titleskill{
+    margin: 10px 0 30px;
+}
+
+.listskill{
+    margin: 10px 0 20px;
+}
+
+.detailskill{
+    margin: 10px 60px 10px;
+}
+
+.titlelanguages {
+    margin: 10px 0 30px;
+}
+
+.listlanguages{
+    margin: 10px 0 20px;
+}
+
+.detaillanguages{
+    margin: 10px 60px 10px;
+}
+
+.linksdetail, :link {
+    text-decoration: none; 
+}
+  
+.linksdetail:visited {
+    text-decoration: none;
+    color: rgb(106, 106, 191);
+}
+  
+.linksdetail:hover {
+    text-decoration: underline;
+    color: #097969;
+}
+  
+.linksdetail:active {
+    text-decoration: underline;
+}
+
+.timeline {
+    position: relative;
+    margin: 40px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    width: 2px;
+    background-color: #8b8bd5;
+    margin-left: -2px;
+}
+
+.event {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+
+.event::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #8b8bd5;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.event p {
+    margin: 0;
+    padding-left: 7px;
+}
+
